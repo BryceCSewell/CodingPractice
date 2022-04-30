@@ -1,3 +1,5 @@
+#This code will check a password you input and tell you how many times it has been used
+
 import requests
 import hashlib
 import sys
