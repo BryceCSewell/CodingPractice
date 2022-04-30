@@ -1,3 +1,5 @@
+#This program will pull the articles from the first two pages of Hacker News that have 100 or more votes
+
 import requests
 from bs4 import BeautifulSoup
 import pprint
