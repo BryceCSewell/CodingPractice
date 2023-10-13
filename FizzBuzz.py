@@ -1,4 +1,4 @@
-integers = input("Enter integers for x, y, and n: ").split()
+integers = input("Enter integers for x, y, and n: ").split() #splits multiple inputs into an array
 integers = [eval(i) for i in integers] #splits string inputs into integers
 
 x = integers[0]
