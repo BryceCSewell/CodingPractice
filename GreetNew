@@ -1,0 +1,9 @@
+#! /bin/bash
+#This program will read a first and last name and print a welcome message
+
+echo -n "Enter your first name: "
+read first
+echo -n "Enter your last name: "
+read last
+
+echo -n "Hello $first $last"
